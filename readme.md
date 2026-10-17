@@ -43,6 +43,6 @@ This project uses SQL to explore sales, customer activity, and cancelled or retu
 ## Running the queries
 
 Load the CSV files into a SQL database using the table names `customers`, `products`, `orders`, and `order_items`. 
-Then run `analysis-queries.sql` in a database that supports the SQL functions used in the file, including common table expressions and window functions like:- JOIN · LEFT JOIN · CTE (WITH) · CASE WHEN · GROUP BY / HAVING · Window functions: RANK() OVER, ROW_NUMBER() OVER (PARTITION BY ...), LAG() OVER, SUM(...) OVER ()
+Then run `analysis-queries.sql` in a database that supports the SQL functions used in the file, including common table expressions and window functions like:- JOIN · LEFT JOIN · CTE (WITH) · CASE WHEN · GROUP BY / HAVING · Window functions: RANK() OVER,  SUM(...) OVER ()
 
 
